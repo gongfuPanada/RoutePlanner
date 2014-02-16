@@ -5,21 +5,24 @@
     <ignored path="RoutePlanner.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/routePlanner.js" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392482242953" ignored="false" />
-    <file path="/index.gsp" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392514064578" ignored="false" />
+    <file path="/routePlanner.js" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392532534682" ignored="false" />
+    <file path="/index.gsp" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392535015658" ignored="false" />
     <file path="/ApplicationResources.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392483698629" ignored="false" />
     <file path="/a.dummy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392482789363" ignored="false" />
-    <file path="/main.gsp" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392482726746" ignored="false" />
-    <file path="/RouteCalculationController.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392526591093" ignored="false" />
+    <file path="/main.gsp" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392531274364" ignored="false" />
+    <file path="/RouteCalculationController.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392535904995" ignored="false" />
     <file path="/fragment.java" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392489056811" ignored="false" />
-    <file path="/route.gsp" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392515763625" ignored="false" />
+    <file path="/route.gsp" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392530254486" ignored="false" />
     <file path="/UrlMappings.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392497037954" ignored="false" />
     <file path="/Dummy.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392517051690" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/routeplanner/RouteServiceTests.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392523513572" ignored="false" />
     <file path="/RouteService.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392524912784" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/routeplanner/WebServiceTests.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392524997118" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/routeplanner/WebCallServiceTests.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392525014734" ignored="false" />
-    <file path="/WebCallService.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392526628686" ignored="false" />
+    <file path="/WebCallService.groovy" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392532779892" ignored="false" />
+    <file path="/main.css" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392530766870" ignored="false" />
+    <file path="$PROJECT_DIR$/target/stacktrace.log" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392533906986" ignored="false" />
+    <file path="/Dummy.txt" changelist="94a6ac4d-a553-4095-8911-dd8427fdb8f5" time="1392533927050" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,23 +73,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/grails-app/views/RouteCalculation/route.gsp" line="5" class="gsp.default.RouteCalculation/route_gsp" package="gsp.default">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -100,7 +87,25 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/RouteCalculation/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+            <state line="7" column="31" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.4285715">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="52" selection-start="61" selection-end="61" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/RouteCalculation/route.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="81" selection-start="349" selection-end="349" vertical-scroll-proportion="-3.4693878">
               <folding />
             </state>
           </provider>
@@ -109,19 +114,8 @@
       <file leaf-file-name="RouteCalculationController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/routeplanner/RouteCalculationController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="12" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.97328246">
+            <state line="18" column="24" selection-start="373" selection-end="373" vertical-scroll-proportion="0.6083499">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebCallService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/routeplanner/WebCallService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="24" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#21#50#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -135,10 +129,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="route.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/RouteCalculation/route.gsp">
+      <file leaf-file-name="WebCallService.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/routeplanner/WebCallService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+            <state line="21" column="31" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#21#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routePlanner.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/routePlanner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="5" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,16 +161,17 @@
       <list>
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/web-app/js/routePlanner.js" />
         <option value="$PROJECT_DIR$/grails-app/views/routeCalculation/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/routeCalculation/route.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/RouteCalculation/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/RouteCalculation/route.gsp" />
         <option value="$PROJECT_DIR$/grails-app/services/routeplanner/RouteService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/RouteCalculation/route.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/main.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/web-app/js/routePlanner.js" />
         <option value="$PROJECT_DIR$/grails-app/services/routeplanner/WebCallService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/RouteCalculation/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/routeplanner/RouteCalculationController.groovy" />
       </list>
     </option>
@@ -388,7 +394,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -402,7 +408,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989726" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.67235494" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.6023891" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -487,21 +493,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.grails/2.2.2/projects/RoutePlanner/plugins/twitter-bootstrap-3.1.0/TwitterBootstrapGrailsPlugin.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.grails/2.2.2/projects/RoutePlanner/plugins/twitter-bootstrap-3.1.0/grails-app/conf/BootstrapResources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="4" selection-start="6091" selection-end="6091" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -524,16 +515,6 @@
         <state line="51" column="27" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.44615385" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/routePlanner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="140" selection-end="140" vertical-scroll-proportion="0.26153848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.5210728" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="21" selection-start="180" selection-end="180" vertical-scroll-proportion="0.62333333" />
@@ -546,16 +527,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/RouteCalculation/index.gsp">
+    <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+        <state line="595" column="1" selection-start="11239" selection-end="11239" vertical-scroll-proportion="0.81352836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/images/spinner.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="61" selection-end="61" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/RouteCalculation/route.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="10" column="81" selection-start="349" selection-end="349" vertical-scroll-proportion="-3.4693878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/routePlanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/routeplanner/WebCallService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#21#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/RouteCalculation/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.4285715">
           <folding />
         </state>
       </provider>
@@ -567,18 +583,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/routeplanner/WebCallService.groovy">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#50#0" expanded="true" />
-          </folding>
+        <state line="634" column="0" selection-start="23203" selection-end="23203" vertical-scroll-proportion="0.18923934">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/routeplanner/RouteCalculationController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.97328246">
+        <state line="18" column="24" selection-start="373" selection-end="373" vertical-scroll-proportion="0.6083499">
           <folding />
         </state>
       </provider>

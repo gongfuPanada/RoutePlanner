@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title><g:layoutTitle default="Grails"/></title>
+		<title><g:layoutTitle default="Route Planner"/></title>
         <r:require module="bootstrap"/>
 		<g:layoutHead/>
 		<r:layoutResources />

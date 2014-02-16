@@ -17,6 +17,9 @@ class WebCallService
                     temp = json.getText()
                     temp = temp.replaceAll('\\r\\n', '')
                 }
+                response.failure = { resp ->
+                    return [status: false];
+                }
             }
         }
         JSON.parse(temp)
